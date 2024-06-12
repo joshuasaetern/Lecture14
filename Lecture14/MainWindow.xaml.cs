@@ -13,9 +13,11 @@ using System.Windows.Shapes;
 
 namespace Lecture14
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
+    //Joshua Saetern
+    //Computer Programming II
+    //06.11.2024
+    //Lecture 14 - Enumerables and Images
+
     public partial class MainWindow : Window
     {
         public MainWindow()

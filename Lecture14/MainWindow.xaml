@@ -6,16 +6,16 @@
         xmlns:local="clr-namespace:Lecture14"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Canvas>
         <Image x:Name="imgDisplay" HorizontalAlignment="Left" Height="279" Margin="91,24,0,0" VerticalAlignment="Top" Width="606"/>
         <ComboBox x:Name="cmbStyles" HorizontalAlignment="Left" Margin="459,357,0,0" VerticalAlignment="Top" Width="209"/>
-        <Button x:Name="btnLoadImage" Content="Load Image" HorizontalAlignment="Left" Margin="214,392,0,0" VerticalAlignment="Top" Width="80px" Click="btnLoadImage_Click"/>
-        <RichTextBox Margin="107,357,399,55">
+        <Button x:Name="btnLoadImage" Content="Load Image" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80px" Click="btnLoadImage_Click" Canvas.Left="214" Canvas.Top="392"/>
+        <RichTextBox Canvas.Left="107" Canvas.Top="357" Width="293">
             <FlowDocument>
                 <Paragraph>
                     <Run x:Name="runDisplay" Text=""/>
                 </Paragraph>
             </FlowDocument>
         </RichTextBox>
-    </Grid>
+    </Canvas>
 </Window>
